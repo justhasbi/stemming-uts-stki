@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+
+.nav-list li{
+    background-color:  rgb(139, 146, 211);
+    line-height: 40px;
+    list-style: none;
+    padding: 5px 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list li:hover{
+    background-color:  rgb(113, 120, 177);
+}
+
+main {
+    width: 70%;
+    margin: 40px auto 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-icon-container {
+    display: flex;
+}
+
+.info-icon-container p {
+    margin-right: 10px;
+}
+
+.Search-container {
+    width: 60%;
+    text-align: center;
+}
+.title-tag {
+    font-family: 'Playfair Display', serif;
+    color:  rgb(66, 74, 129);
+}
+
+.Search-container .keyword {
+    border: 2px solid #333;
+    outline: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.Search-container .btn-form {
+    padding: 10px 15px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:  rgb(113, 120, 177);
+}
+
+.results {
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.result {
+    margin: 30px 0;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 20px;    
+}
+
+.info-icon-container p {
+    font-size: 0.8em;
+}
+
+.result-head .document-title-result,  .result-title{
+    margin: 10px 0;
+    color:  rgb(66, 74, 129);
+}
+
+.result-head .document-title {
+    font-size: 0.9em;
+    margin: 0;
+    color: #555;
+}
+
+/* Index CSS */
+.results p span {
+    background-color: #fff000;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.result-head a {
+	text-decoration: none;
+	
+}
